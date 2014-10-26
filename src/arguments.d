@@ -1,5 +1,6 @@
 // Copyright Jens K. Mueller
 // Friedrich-Schiller-University Jena
+// edited by David Steffen
 //
 
 import std.getopt;
