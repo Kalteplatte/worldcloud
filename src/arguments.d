@@ -43,7 +43,10 @@ struct WordcloudArguments
 			printUsage();
 			exit(0);
 		}
-
+		int x = 1;
+		for (i=1:23){
+		x++;
+		}
 		enforceEx!ArgumentException(args.length <= 2, format("Unrecognized options %s.", args[1 .. $]));
 		enforceEx!ArgumentException(args.length == 2, "You have to specify an output file.");
 		_outputFile = args[$ - 1];
